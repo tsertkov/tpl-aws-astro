@@ -1,0 +1,34 @@
+{
+  "projectName": "tpl-aws-website",
+  "certificateDomain": "alekswrite.com",
+  "default": {
+    "region": "eu-central-1",
+    "githubRepo": "tsertkov/tpl-aws-website",
+    "logsRetentionInDays": 731,
+    "errorResponseFileKey": "404.html",
+    "acmCertificateId": "a6e79f52-c0b4-4c42-b5b3-5f5ca7913882",
+    "domain": {
+      "hostedZoneId": "Z07396821BXVTM0G94VCB"
+    },
+    "debug": "false"
+  },
+  "prd": {
+    "domain": {
+      "name": "tpl-aws-website.alekswrite.com"
+    },
+    "s3bucket": "tpl-aws-website-prd-euc1-webbucket-t31gd62wyryd",
+    "cloudfrontId": "EMF51YCXDT2W5"
+  },
+  "stg": {
+    "domain": {
+      "name": "tpl-aws-website.stg.alekswrite.com"
+    },
+    "logsRetentionInDays": 14,
+    "basicAuth": "true",
+    "basicAuthUsername": "staging",
+    "basicAuthPassword": "letmein",
+    "debug": "true",
+    "s3bucket": "tpl-aws-website-stg-euc1-webbucket-0stjwvlsrumd",
+    "cloudfrontId": "E110YJN4TYH70Q"
+  }
+}
