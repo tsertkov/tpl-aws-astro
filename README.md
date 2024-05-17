@@ -1,8 +1,8 @@
 [<img src="docs/use-this-template-btn.png" width="160" />](https://github.com/new?template_name=tpl-aws-website&template_owner=tsertkov)
 
-# tpl-aws-website 
+# tpl-aws-astro 
 
-A monorepo template for an AWS-hosted static website, complete with infrastructure code and CI/CD automations, multiple environments with optional basic auth protection.
+A monorepo template for an AWS-hosted static astro generated website, complete with infrastructure code and CI/CD automations, multiple environments with optional basic auth protection.
 
 ## Table of Contents
 
