@@ -69,9 +69,13 @@ make
 
 make fe
 # Available targets:
-#  test - test frontend
-#  build - build frontend
-#  deploy - deploy frontend
+#   build - build frontend
+#   deploy - deploy frontend
+#   init - init dependencies
+#   init-test - init test dependencies
+#   test - run tests
+#   npm-run-% - run any npm script
+#   npm-% - run any npm command
 
 make infra
 # Available targets:
