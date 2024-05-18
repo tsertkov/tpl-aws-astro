@@ -27,6 +27,8 @@ jobs:
             config.json
             Makefile
             fe
+      - name: Init dependencies
+        run: make fe-init-test
       - name: Build frontend
         run: make fe-build ENV=${{ inputs.env || 'stg' }}
       - name: Upload artifacts
