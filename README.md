@@ -2,7 +2,7 @@
 
 # tpl-aws-astro 
 
-A monorepo template for an AWS-hosted static astro generated website, complete with infrastructure code and CI/CD automations, multiple environments with optional basic auth protection.
+A monorepo template for an AWS-hosted, Astro-generated static website, complete with infrastructure code, CI/CD automations, multiple environments, and optional basic auth protection.
 
 ## Table of Contents
 
