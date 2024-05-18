@@ -170,6 +170,24 @@ Resources:
               - !Sub
                 - '${arn}/*'
                 - arn: !GetAtt WebBucket.Arn
+  CachePolicyCachingForever:
+    Type: AWS::CloudFront::CachePolicy
+    Properties:
+      CachePolicyConfig:
+        Comment: CachingForever
+        DefaultTTL: 31536000
+        MaxTTL: 31536000
+        MinTTL: 31536000
+        Name: !Sub '${AWS::StackName}-forever'
+        ParametersInCacheKeyAndForwardedToOrigin:
+          EnableAcceptEncodingBrotli: true
+          EnableAcceptEncodingGzip: true
+          CookiesConfig:
+            CookieBehavior: none
+          QueryStringsConfig:
+            QueryStringBehavior: none
+          HeadersConfig:
+            HeaderBehavior: none
   CachePolicyCachingOptimized:
     Type: AWS::CloudFront::CachePolicy
     Properties:
@@ -200,6 +218,17 @@ Resources:
         Logging:
           IncludeCookies: false
           Bucket: !GetAtt LogsBucket.DomainName
+        CacheBehaviors:
+          - Compress: true
+            PathPattern: /_assets/*
+            SmoothStreaming: false
+            TargetOriginId: !Ref DomainName
+            ViewerProtocolPolicy: redirect-to-https
+            CachePolicyId: !Ref CachePolicyCachingForever
+            ResponseHeadersPolicyId: 67f7725c-6f97-4210-82d7-5512b31e9d03
+            FunctionAssociations:
+              - EventType: viewer-request
+                FunctionARN: !GetAtt ViewerRequestFunction.FunctionMetadata.FunctionARN
         DefaultCacheBehavior:
           AllowedMethods:
             - GET

@@ -36,6 +36,7 @@ const robotsConfig =
 export default /** @type {import('astro').AstroUserConfig} */ defineConfig({
   build: {
     format: 'file',
+    assets: '_assets',
   },
   custom: {
     env: ENV,
