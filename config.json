@@ -17,8 +17,8 @@
     "domain": {
       "name": "tpl-aws-astro.alekswrite.com"
     },
-    "s3bucket": "",
-    "cloudfrontId": ""
+    "s3bucket": "tpl-aws-astro-prd-euc1-webbucket-toes03y1cc2h",
+    "cloudfrontId": "E302DVWMQAEPJK"
   },
   "stg": {
     "domain": {
