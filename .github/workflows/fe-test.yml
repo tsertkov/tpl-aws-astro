@@ -22,6 +22,11 @@ jobs:
             config.json
             Makefile
             fe
+      - uses: actions/setup-node@v4
+        with:
+          cache: npm
+          cache-dependency-path: fe/package-lock.json
+          node-version-file: fe/package.json
       - name: Init dependencies
         run: make fe-init-test
       - name: Run tests
