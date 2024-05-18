@@ -1,4 +1,4 @@
-[<img src="docs/use-this-template-btn.png" width="160" />](https://github.com/new?template_name=tpl-aws-website&template_owner=tsertkov)
+[<img src="docs/use-this-template-btn.png" width="160" />](https://github.com/new?template_name=tpl-aws-astro&template_owner=tsertkov)
 
 # tpl-aws-astro 
 
