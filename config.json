@@ -29,7 +29,7 @@
     "basicAuthUsername": "staging",
     "basicAuthPassword": "letmein",
     "debug": "true",
-    "s3bucket": "",
-    "cloudfrontId": ""
+    "s3bucket": "tpl-aws-astro-stg-euc1-webbucket-bmpqirbourtn",
+    "cloudfrontId": "E1OOGNEO5B26DP"
   }
 }
