@@ -87,7 +87,7 @@ make infra
 
 ## Infrastructure and Flow Diagram
 
-![Infrastructure Diagram](https://raw.githubusercontent.com/tsertkov/tpl-aws-website/main/docs/infra-diagram.svg)
+![Infrastructure Diagram](https://raw.githubusercontent.com/tsertkov/tpl-aws-astro/main/docs/infra-diagram.svg)
 
 ### 0. Shared AWS Resources
 
