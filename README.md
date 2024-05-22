@@ -4,7 +4,7 @@
 
 A monorepo template for an AWS-hosted, Astro-generated static website, complete with infrastructure code, CI/CD automations, multiple environments, and optional basic auth protection.
 
-💲 **$0.50** 🌟 Monthly AWS cost (**🌐 DNS Zone** + 🔧 *usage*)
+💲 >= **$0.50** 🌟 Monthly AWS cost (**🌐 DNS Zone** + 🔧 *usage*)
 
 ## Table of Contents
 
