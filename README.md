@@ -1,6 +1,6 @@
-[<img src="docs/assets/use-this-template-btn.png" width="160" />](https://github.com/new?template_name=tpl-aws-astro&template_owner=tsertkov)
+[<img src="docs/assets/use-this-template-0.50.svg" height="40" />](https://github.com/new?template_name=tpl-aws-astro&template_owner=tsertkov)
 
-# tpl-aws-astro 
+# tpl-aws-astro
 
 A monorepo template for an AWS-hosted, Astro-generated static website, complete with infrastructure code, CI/CD automations, multiple environments, and optional basic auth protection.
 
