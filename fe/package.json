@@ -17,8 +17,8 @@
         "eslint:check": "eslint ."
     },
     "devDependencies": {
-        "astro": "^4.8.6",
-        "astro-compress": "^2.2.23",
+        "astro": "^4.9.2",
+        "astro-compress": "^2.2.26",
         "astro-robots-txt": "^1.0.0",
         "prettier": "^3.2.5",
         "eslint": "^9.2.0"
